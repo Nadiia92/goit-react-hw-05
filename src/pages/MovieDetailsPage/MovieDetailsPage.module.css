@@ -1,0 +1,92 @@
+/** @format */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.back-btn {
+  display: inline-flex;
+  width: 100px;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.back-btn:hover {
+  background-color: #ccc;
+  color: #630303;
+}
+
+.icon {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+.movie-info {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  border-bottom: 1px solid black;
+}
+
+.image {
+  width: 100%;
+}
+.description {
+  width: 800px;
+}
+.description p {
+  font-size: 20px;
+}
+.list {
+  list-style: inside;
+}
+.list li {
+  font-size: 18px;
+}
+
+.add-info {
+  padding: 24px;
+}
+.add-info-title {
+  font-size: 24px;
+  margin-top: 0;
+  color: beige;
+}
+.add-info-list {
+  display: flex;
+  align-items: center;
+}
+.add-info-item {
+  font-size: 18px;
+  padding: 2px 16px;
+  background-color: rgb(246, 243, 239);
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.info-link {
+  color: black;
+}
+
+.add-info-item:first-of-type {
+  margin-right: 24px;
+}
+
+.add-info-item:hover,
+.add-info-item:focus {
+  border-color: rgb(184, 92, 7);
+  background-color: burlywood;
+}
+.active {
+  color: rgb(184, 92, 7);
+  text-decoration: underline;
+}

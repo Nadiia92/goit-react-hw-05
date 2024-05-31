@@ -1,0 +1,27 @@
+/** @format */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: beige;
+  border: 1px solid chocolate;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.container:hover,
+.container:focus {
+  transform: scale(105%);
+}
+.image {
+  width: 100%;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: beige;
+}

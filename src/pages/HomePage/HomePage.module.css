@@ -1,0 +1,12 @@
+/** @format */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.title {
+  font-size: 36px;
+  color: yellowgreen;
+  margin-right: auto;
+  margin-left: 50px;
+}
